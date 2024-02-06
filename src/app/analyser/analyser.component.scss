@@ -1,0 +1,15 @@
+.canvas {
+  position: relative;
+}
+
+.led-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  mask-image: url("led.png");
+  mask-size: 10px;
+  mask-repeat: repeat;
+}

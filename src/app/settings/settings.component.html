@@ -1,0 +1,8 @@
+<div class="settings-container">
+  <form [formGroup]="form">
+    <formly-form [form]="form" [fields]="fields" [(model)]="model"></formly-form>
+  </form>
+<!--  <button class="btn btn-primary" (click)="openAnalyserWindow()">Open Analyser</button>-->
+  <button class="btn btn-primary" (click)="saveSettings()">Save Settings</button>
+</div>
+
